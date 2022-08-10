@@ -105,7 +105,7 @@ public class ProyectoBancoVo {
     
     @Override
     public String toString(){
-        return String.format("%3d %-25s %-20s %-15s %-7d %-30s", 
+        return String.format("%3d %-25s %-20s %-15s %7d %-30s", 
                 this.id, this.constructora,this.ciudad,this.clasificacion,this.estrato,this.lider);
         /*return this.id + "%3s" + this.constructora + "%-25s" + this.ciudad + "%-20s" + this.clasificacion + "%-15s" + this.estrato + " " + this.lider;*/
     }
